@@ -13,6 +13,7 @@
         <module>restkeeper_gateway</module>
         <module>restkeeper_service</module>
         <module>restkeeper_web</module>
+        <module>ceshi</module>
     </modules>
 
     <!-- Spring boot 版本信息 -->
