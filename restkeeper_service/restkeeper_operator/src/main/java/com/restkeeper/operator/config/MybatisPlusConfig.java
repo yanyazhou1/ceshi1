@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class MybatisPlusConfig  {
 
     /**
-     * mybaits-plus分页组件支持
+     * mybaits-plus分页组件支持支持
      * @return
      */
     @Bean
