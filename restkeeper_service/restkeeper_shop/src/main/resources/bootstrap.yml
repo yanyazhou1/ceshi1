@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: shop-dubbo-provider
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.110.54:8848
+      config:
+        server-addr: 192.168.110.54:8848
+        file-extension: yml
+        #绑定远程中心的配置文件
+        shared-dataids: common.yml,restkeeper-mq.yml
+        refreshable-dataids: common.yml

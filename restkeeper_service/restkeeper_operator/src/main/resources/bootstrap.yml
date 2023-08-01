@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: operator-dubbo-provider
+  profiles:
+    active: dev
+  cloud:
+    subscribed-services: operator-dubbo-provider
+    nacos:
+      discovery:
+        server-addr: 192.168.110.54:8848
+      config:
+        server-addr: 192.168.110.54:8848
+        file-extension: yml
+        prefix: operator-dubbo-provider
+        shared-dataids: common.yml,restkeeper-mq.yml
+        refreshable-dataids: common.yml
+
